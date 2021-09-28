@@ -1,4 +1,4 @@
-import { StyledCard } from "./Styled/StyledCard"
+import { StyledCard } from "./StyledCard"
 
 export const Card = ({ item: { id, title, body, image } }) => (
     <StyledCard layout={id % 2 === 0 && 'row-reverse'}>

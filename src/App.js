@@ -1,11 +1,11 @@
 import { ThemeProvider } from 'styled-components';
 
-import { Header } from './components/Header';
-import { Card } from './components/Card';
-import { Footer } from './components/Footer';
+import { Header } from './components/Header/Header';
+import { Card } from './components/Card/Card';
+import { Footer } from './components/Footer/Footer';
 
-import { GlobalStyles } from './components/Styled/GlobalStyle';
-import { StyledContainer } from './components/Styled/StyledContainer';
+import { GlobalStyles } from './GlobalStyle';
+import { StyledContainer } from './components/Utils/StyledContainer';
 import items from './items'
 
 const theme = {

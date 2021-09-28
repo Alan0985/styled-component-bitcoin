@@ -1,7 +1,7 @@
-import { StyledContainer } from "./Styled/StyledContainer";
-import { StyledFooter } from "./Styled/StyledFooter";
-import { StyledFlex } from "./Styled/StyledFlex";
-import { SocialIcons } from "./SocialIcons";
+import { StyledContainer } from "../Utils/StyledContainer";
+import { StyledFlex } from "../Utils/StyledFlex";
+import { StyledFooter } from "./StyledFooter";
+import { SocialIcons } from "../SocialIcons/SocialIcons";
 
 export const Footer = () => (
     <StyledFooter>

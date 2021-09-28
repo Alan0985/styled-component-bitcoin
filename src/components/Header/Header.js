@@ -1,7 +1,7 @@
-import { StyledHeader, StyledNav, Logo, Image } from "./Styled/StyledHeader"
-import { StyledContainer } from './Styled/StyledContainer'
-import { StyledButton } from './Styled/StyledButton'
-import { StyledFlex } from './Styled/StyledFlex'
+import { StyledHeader, StyledNav, Image } from "./StyledHeader"
+import { StyledContainer } from '../Utils/StyledContainer'
+import { StyledButton } from '../Button/StyledButton'
+import { StyledFlex } from '../Utils/StyledFlex'
 import { FaBitcoin } from 'react-icons/fa'
 
 export const Header = () => (

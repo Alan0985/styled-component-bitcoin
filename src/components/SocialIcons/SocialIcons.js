@@ -1,5 +1,5 @@
 import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa'
-import { StyledSocialIcons } from './Styled/StyledSocialIcons'
+import { StyledSocialIcons } from './StyledSocialIcons'
 
 export const SocialIcons = () => {
     return (
